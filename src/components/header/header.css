@@ -70,9 +70,13 @@ header{
     header{
         height: 100vh;
     }
-    /* .header__socials,.scroll__down{
+    .scroll__down{
        display: none;
-    } */
+    }
+    .header__socials{
+        margin-left: 10px;
+        height: 70px;
+    }
  }
  
  
