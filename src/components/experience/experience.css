@@ -4,6 +4,18 @@
    
 }
 
+
+@media only screen and (max-width: 600px) {
+    .experience
+    {
+    margin-top: 500px;
+   }
+}
+ 
+
+      
+
+
 .main{
     justify-content: center;
     width: 100%;
