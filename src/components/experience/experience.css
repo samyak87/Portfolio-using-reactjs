@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-h2,h3{
+h2,h3,h5,ul{
     padding-bottom: 2rem;
     text-align: center;
 }
@@ -17,4 +17,8 @@ h2,h3{
     
     display: flex;
     width: 100%;
+}
+
+ul{
+    font-size: large;
 }
