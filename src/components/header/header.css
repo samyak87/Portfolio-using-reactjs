@@ -1,0 +1,78 @@
+header{
+    height: 124vh;
+    padding-top: 6rem;
+    overflow: visible;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.mypic{
+    width: 44%;
+    border-radius: 1rem;
+}
+
+.me{
+    margin-top:0.5rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/* CTA */
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+
+}
+
+
+/* socials  */
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 14rem;
+
+}
+
+
+/* Scroll Down  */
+.scroll__down{
+    position: absolute;
+    right: -2rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+}
+
+
+
+
+/* Media Queries (MEDIUM DEVICES) */
+@media screen and (max-width:1024px) {
+    header{
+        height: 68vh;
+    }
+ }
+ 
+ 
+ /* Media Queries (SMALL DEVICES) */
+ @media screen and (max-width:600px) {
+    header{
+        height: 100vh;
+    }
+    .header__socials,.scroll__down{
+       display: none;
+    }
+ }
+ 
+ 

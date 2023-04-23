@@ -1,0 +1,20 @@
+
+.experience__frontend,.experience__programming{
+    width: 50%;
+   
+}
+
+.main{
+    justify-content: center;
+    width: 100%;
+}
+
+h2,h3{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.main{
+    
+    display: flex;
+    width: 100%;
+}

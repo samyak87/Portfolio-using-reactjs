@@ -1,0 +1,16 @@
+.about__container{
+    margin-top: 1rem;
+display: grid;
+/* grid-template-columns: 34% 50%; */
+/* gap: 10%; */
+line-height: 3;
+
+}
+
+
+
+h3{
+    margin-top: 0.1rem;
+    text-align: center;
+    font-size: larger;
+}

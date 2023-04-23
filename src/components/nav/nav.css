@@ -1,0 +1,36 @@
+nav{
+    background:rgba(0,0,0,0.3);
+    width: max-content;
+    padding: 0.7rem 1.8rem;
+     display: block;
+     z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.9rem;
+    border-radius: 1.6rem;
+    font-size: 1.3rem;
+     backdrop-filter: blur(10px);           /*  important */
+ 
+}
+
+nav a{
+ color: var(--color-light);
+ padding: 0.1rem;
+}
+
+nav a:hover{
+ background-color: rgba(0,0,0,0.2);
+ transform: scale(1.2);
+}
+
+nav a.active{
+    backdrop-filter: blur(20px);   
+ color: var(--color-white);
+
+
+}
+
+/* using useState hook to change active classes accordingly  */
