@@ -7,7 +7,7 @@
 
 @media only screen and (max-width: 600px) {
     #experience
-    {
+   {
     margin-top: 500px;
    }
 }
@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-h2,h3,h5,ul{
+h2,h5,h3,ul{
     padding-bottom: 2rem;
     text-align: center;
 }

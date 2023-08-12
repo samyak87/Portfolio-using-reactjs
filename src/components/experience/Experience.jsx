@@ -7,7 +7,7 @@ export const Experience = () => {
       <h2>Skills</h2>
       <div className="main">
       <div className="experience__frontend">
-        <h3>Frontened</h3>
+        <h3>Web</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -15,7 +15,18 @@ export const Experience = () => {
           <li>Bootstrap</li>
           <li>Reactjs</li>
           <li>Wordpress</li>
+          <li>SQL</li>
         </ul>
+      </div>
+      <div className="experience__programming">
+       <h3>Subjects</h3>
+       <ul>
+          <li>DBMS</li>
+          <li>Operating Systems</li>
+          <li>Computer Networks</li>
+          
+        </ul>
+
       </div>
       <div className="experience__programming">
        <h3>Programming</h3>
@@ -28,6 +39,7 @@ export const Experience = () => {
         </ul>
 
       </div>
+     
       </div>
     </div>
   );
